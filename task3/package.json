@@ -1,0 +1,22 @@
+{
+  "name": "task3",
+  "version": "1.0.0",
+  "main": "task3.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node task3.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@stdlib/math-base-special-lcm": "^0.3.0",
+    "bigint-crypto-utils": "^3.3.0",
+    "bigint-math": "^0.2.0",
+    "compute-lcm": "^1.1.2",
+    "express": "^5.1.0",
+    "lcm": "^0.0.3",
+    "mathjs": "^14.8.1"
+  }
+}
