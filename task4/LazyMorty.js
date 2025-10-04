@@ -17,16 +17,12 @@ class LazyMorty extends BaseMorty {
           break;
         }
       }
-    } else {
-      otherBox = gunBox;
-    }
+    } else otherBox = gunBox;
 
     let removedMsg = [];
 
     for (let i = 0; i < boxes; i++) {
-      if (i !== guess && i !== otherBox) {
-        removedMsg.push(i);
-      }
+      if (i !== guess && i !== otherBox) removedMsg.push(i);
     }
     
     console.log(`Morty: I removed boxes: ${removedMsg.join(", ") || "(none)"}`);
